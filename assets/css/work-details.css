@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+.breadcrumbs li:nth-last-child(1){
+  font-family: "Noto Sans JP", sans-serif;
+}
+.worksHead {
+  border-left: 0.1rem solid #006ABB;
+  padding-left: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .worksHead {
+    margin-bottom: 0.3rem;
+  }
+}
+.worksHead h2 {
+  color: #006ABB;
+  font-size: 0.3rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.3333333333;
+  position: relative;
+}
+.worksHead h2::before, .worksHead h2::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+}
+.worksHead h2::before {
+  margin-bottom: -0.1666666667em;
+}
+.worksHead h2::after {
+  margin-top: -0.1666666667em;
+}
+@media screen and (max-width: 768px) {
+  .worksHead h2 {
+    font-size: 0.26rem;
+  }
+}
+.worksHead dl {
+  display: flex;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+.worksHead dl dt {
+  font-family: "Montserrat", sans-serif;
+  color: #006ABB;
+  font-size: 0.18rem;
+  font-weight: 900;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .worksHead dl dt {
+    font-size: 0.14rem;
+  }
+}
+.worksHead dl dt:after {
+  content: "";
+  display: block;
+  width: 0.3rem;
+  height: 0.01rem;
+  background: #006ABB;
+  margin: 0 0.1rem;
+}
+@media screen and (max-width: 768px) {
+  .worksHead dl dt:after {
+    width: 0.2rem;
+  }
+}
+.worksHead dl dd {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.18rem;
+  font-weight: 500;
+  line-height: 1;
+}
+@media screen and (max-width: 768px) {
+  .worksHead dl dd {
+    font-size: 0.14rem;
+  }
+}
+
+#details .inner {
+  display: flex;
+  flex-wrap:wrap;
+}
+@media screen and (max-width: 768px) {
+  #details .inner {
+    display: block;
+  }
+}
+#details .inner .left {
+  width: 50%;
+  
+}
+#details .inner .left .box {
+  position: sticky;
+  top: 1.0rem;
+}
+@media screen and (max-width: 768px) {
+  #details .inner .left {
+    position: static;
+    width: 100%;
+    margin-right: 0.5rem;
+  }
+  #details .inner .left .box {
+    position: static;
+  }
+}
+#details .inner .left .clientInfo dt {
+  background: #006ABB;
+  color: #fff;
+  font-size: 0.16rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 0.3em 0.7em 0.4em;
+  display: inline-block;
+  margin-bottom: 0.05rem;
+}
+@media screen and (max-width: 768px) {
+  #details .inner .left .clientInfo dt {
+    font-size: 0.14rem;
+    margin-bottom: 0.02rem;
+  }
+}
+#details .inner .left .clientInfo dd {
+  font-size: 0.16rem;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.2rem;
+}
+@media screen and (max-width: 768px) {
+  #details .inner .left .clientInfo dd {
+    font-size: 0.14rem;
+    margin-bottom: 0.1rem;
+  }
+}
+#details .inner .left figure {
+  margin-top: 0.6rem;
+}
+#details .inner .right {
+  width: 50%;
+  flex: 1;
+  margin-right: calc(50% - 50vw);
+}
+@media screen and (max-width: 768px) {
+  #details .inner .right {
+    width: 100%;
+    margin-right: initial;
+  }
+}
+#details .inner .right img {
+  max-width: 6.5rem;
+  width: 100%;
+}
+.wrapper{
+  overflow:initial;
+}
+
+
+/*# sourceMappingURL=details.css.map */

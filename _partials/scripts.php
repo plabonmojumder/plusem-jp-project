@@ -1,0 +1,10 @@
+<script src="assets/js/navigation.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.inview.min.js"></script>
+<script src="assets/js/iscroll.min.js"></script>
+<script src="assets/js/drawer.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/smooth.js"></script>
+<script src="assets/js/scroll-hint.min.js"></script>
+<script src="assets/js/animation.js"></script>
+<script src="assets/js/custom.js"></script>

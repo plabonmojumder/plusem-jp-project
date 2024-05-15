@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+#serviceContents ul {
+  margin-top: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul {
+    margin-top: 0.6rem;
+  }
+}
+#serviceContents ul li {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li {
+    display: block;
+  }
+}
+#serviceContents ul li div {
+  width: 5.65rem;
+  height: 4.1rem;
+  background: #fff;
+  padding: 0.7rem 0.5rem 0.4rem;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li div {
+    width: 100%;
+    padding: 0.4rem 0.2rem 0.2rem;
+    height: initial;
+  }
+}
+#serviceContents ul li div span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1;
+  position: absolute;
+  top: -0.4rem;
+  color: #006ABB;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li div span {
+    font-size: 0.5rem;
+    top: -0.3rem;
+  }
+}
+#serviceContents ul li div .serviceHead {
+  color: #006ABB;
+  margin-bottom: 0.1rem;
+}
+#serviceContents ul li div .serviceHead h2 {
+  font-size: 0.3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li div .serviceHead h2 {
+    font-size: 0.26rem;
+  }
+}
+#serviceContents ul li div .serviceHead em {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 0.14rem;
+  line-height: 1;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li div .serviceHead em {
+    font-size: 0.12rem;
+  }
+}
+#serviceContents ul li div p {
+  font-size: 0.16rem;
+  line-height: 1.9375;
+  letter-spacing: 0.06em;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li div p {
+    font-size: 0.13rem;
+  }
+}
+#serviceContents ul li figure {
+  margin-top: -0.4rem;
+  width: 6.75rem;
+  position: relative;
+  z-index: 0;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li figure {
+    width: 100%;
+  }
+}
+#serviceContents ul li figure img {
+  width: 6.45rem;
+  position: relative;
+  z-index: 1;
+}
+#serviceContents ul li figure:after {
+  content: "";
+  display: block;
+  width: 6.25rem;
+  height: 1.57rem;
+  background: #006ABB;
+  position: relative;
+  bottom: 0.1rem;
+  z-index: 0;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li figure:after {
+    width: 100%;
+  }
+}
+#serviceContents ul li:nth-child(odd) span {
+  left: 0.3rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(odd) span {
+    right: initial;
+    left: 0.2rem;
+  }
+}
+#serviceContents ul li:nth-child(odd) div {
+  margin-right: -0.5rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(odd) div {
+    margin-right: 0;
+  }
+}
+#serviceContents ul li:nth-child(odd) figure {
+  margin-right: -1.1rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(odd) figure {
+    margin-right: 0;
+  }
+}
+#serviceContents ul li:nth-child(odd) figure:after {
+  content: "";
+  position: absolute;
+  right: 0;
+}
+#serviceContents ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#serviceContents ul li:nth-child(even) span {
+  right: 0.3rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(even) span {
+    right: initial;
+    left: 0.2rem;
+  }
+}
+#serviceContents ul li:nth-child(even) div {
+  margin-left: -0.5rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(even) div {
+    margin-left: 0;
+  }
+}
+#serviceContents ul li:nth-child(even) figure {
+  margin-left: -1.1rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(even) figure {
+    margin-left: 0;
+  }
+}
+#serviceContents ul li:nth-child(even) figure img {
+  display: block;
+  margin-left: auto;
+}
+#serviceContents ul li:nth-child(even) figure:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+}
+#serviceContents ul li:nth-child(2) div, #serviceContents ul li:nth-child(4) div, #serviceContents ul li:nth-child(5) div, #serviceContents ul li:nth-child(6) div {
+  height: 3.8rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:nth-child(2) div, #serviceContents ul li:nth-child(4) div, #serviceContents ul li:nth-child(5) div, #serviceContents ul li:nth-child(6) div {
+    height: initial;
+  }
+}
+#serviceContents ul li:nth-child(2) figure:after, #serviceContents ul li:nth-child(4) figure:after, #serviceContents ul li:nth-child(5) figure:after, #serviceContents ul li:nth-child(6) figure:after {
+  bottom: 0.1rem;
+}
+#serviceContents ul li:not(:last-child) {
+  margin-bottom: 1.7rem;
+}
+@media screen and (max-width: 768px) {
+  #serviceContents ul li:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+}

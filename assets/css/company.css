@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contents {
+  max-width: 8.8rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#company dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#company dl dt {
+  width: 1.33rem;
+  position: relative;
+  min-height: 0.75rem;
+  padding: 0.2rem 0;
+  font-size: 0.16rem;
+  font-weight: 700;
+  color: #006ABB;
+}
+@media screen and (max-width: 768px) {
+  #company dl dt {
+    font-size: 0.13rem;
+    width: 0.83rem;
+    padding: 0.1rem 0;
+    min-height: 0.5rem;
+  }
+}
+#company dl dt:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.03rem;
+  background: #006ABB;
+}
+#company dl dd {
+  width: calc(100% - 1.33rem);
+  position: relative;
+  min-height: 0.75rem;
+  padding: 0.2rem 0 0.2rem 0.2rem;
+  font-size: 0.16rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  #company dl dd {
+    padding: 0.1rem 0 0.1rem 0.1rem;
+    font-size: 0.13rem;
+    width: calc(100% - 0.83rem);
+    min-height: 0.5rem;
+  }
+}
+#company dl dd:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.01rem;
+  position: absolute;
+  bottom: 0.01rem;
+  left: 0;
+  background: #006ABB;
+}
+#company dl dd.telNum {
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  #company dl .mapSp {
+    width: 100%;
+    padding-left: 0;
+  }
+  #company dl .mapSp iframe {
+    width: 100%;
+  }
+}
+
+.googlemap-bw iframe {
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-top: 0.2rem;
+}
+@media screen and (max-width: 768px) {
+  .googlemap-bw iframe {
+    margin-top: 0.1rem;
+  }
+}
